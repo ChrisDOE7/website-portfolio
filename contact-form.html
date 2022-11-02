@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Contact Form</title>
+      <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+   </head>
+
+   <body>
+      <form action="/contact-form-action" method="post">
+         <label for="name">Name:</label>
+         <input
+            type="text"
+            name="user_name"
+            id="name"
+            placeholder="Jon Doe"
+            required
+         />
+         <br />
+         <label for="email">Email:</label>
+         <input
+            type="email"
+            name="user_email"
+            id="email"
+            placeholder="jon-doe@example.com"
+            required
+         />
+         <br />
+         <label for="subject">Reason:</label>
+         <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="(optional)"
+         />
+         <br /><br />
+         <label for="message">Your message:</label><br />
+         <textarea
+            name="email_message"
+            id="message"
+            cols="30"
+            rows="10"
+            required
+         ></textarea>
+         <br />
+         <input type="submit" value="Send message" />
+      </form>
+   </body>
+</html>
