@@ -11,18 +11,18 @@
       <header>
          <div>
             <!-- Add your logo here -->
-            <img src="http://via.placeholder.com/200x70" alt="logo" />
+            <img src="./img/unknownportal.GIF" alt="logo" />
          </div>
          <nav>
-            <ul>
-               <li>
-                  <a href="index.html">Home</a>
+            <ul role="menubar">
+               <li role="presentation">
+                  <a href="index.html" role="menuitem">Home</a>
                </li>
-               <li>
-                  <a href="about.html">About</a>
+               <li role="presentation">
+                  <a href="about.html" role="menuitem">About Me</a>
                </li>
-               <li>
-                  <a href="contact.html">Contact</a>
+               <li role="presentation">
+                  <a href="./contact.html" role="menuitem">Contact </a>
                </li>
             </ul>
          </nav>
@@ -30,7 +30,7 @@
       <main>
          <h1>My Contacts</h1>
          Tel: <br />
-         <a href="tel:+4917123456">+49 171 23456</a>
+         <a href="tel:+4917123456"> Tel: +4917123456</a>
          <br />
          <a href="#">Call</a>
          <br />
@@ -39,12 +39,60 @@
          <a href="mailto:ceberhard@live.de">ceberhard@live.de</a>
          <br />
          <a href="mailto:ceberhard@live.de">Contact me</a>
+         <div>
+            <form action="/contact-form-action" method="post">
+               <label for="name">Name<span style="color:red">*</span></label>
+               <br />
+               <input
+                  type="text"
+                  name="user_name"
+                  id="name"
+                  placeholder="Jon Doe"
+                  required
+               />
+               <br />
+               <label for="email">Email<span style="color:red">*</span></label>
+               <br />
+               <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="jon-doe@example.com"
+                  required
+               />
+               <br />
+               <label for="reason">Reason</label>
+               <br />
+               <input
+                  type="text"
+                  name="reason"
+                  id="reason"
+                  placeholder="(optional)"
+               />
+               <br /><br />
+               <label for="message"
+                  >Your message <span style="color:red">*</span></label
+               >
+               <br />
+               <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  required
+               ></textarea>
+               <br />
+               <input type="submit" value="Send message" />
+            </form>
+         </div>
       </main>
       <footer>
-         <p>Find me on</p>
-         <img src="./img/github.svg" alt="Github" />
-         <img src="./img/twitter.svg" alt="Twitter" />
-         <img src="./img/linkedin.svg" alt="LinkedIn" />
-      </footer>
+         <div>
+            <p>Find me on</p>
+            <img src="./img/github.svg" alt="Github" />
+            <img src="./img/twitter.svg" alt="Twitter" />
+            <img src="./img/linkedin.svg" alt="LinkedIn" />
+         </div>
+      <script src="js/tota11y.min.js"></script>
    </body>
 </html>

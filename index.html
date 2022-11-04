@@ -6,26 +6,27 @@
       <title>Hello World</title>
       <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
    </head>
-
    <body>
       <header>
          <div>
             <!-- Add your logo here -->
-            <img src="http://via.placeholder.com/200x70" alt="logo" />
+            <img src="./img/unknownportal.GIF" alt="logo" />
          </div>
-         <nav>
-            <ul>
-               <li>
-                  <a href="index.html">Home</a>
-               </li>
-               <li>
-                  <a href="./about.html">About</a>
-               </li>
-               <li>
-                  <a href="./contact.html">Contact</a>
-               </li>
-            </ul>
-         </nav>
+         <div>
+            <nav>
+               <ul role="menubar">
+                  <li role="presentation">
+                     <a href="index.html" role="menuitem">Home</a>
+                  </li>
+                  <li role="presentation">
+                     <a href="about.html" role="menuitem">About Me</a>
+                  </li>
+                  <li role="presentation">
+                     <a href="./contact.html" role="menuitem">Contact </a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
       </header>
 
       <main>
@@ -50,14 +51,17 @@
          <br />
       </main>
       <footer>
-         <p>Find me on</p>
-         <img src="./img/github.svg" alt="Github" />
-         <img src="./img/twitter.svg" alt="Twitter" />
-         <img src="./img/linkedin.svg" alt="LinkedIn" />
+         <div>
+            <p>Find me on</p>
+            <img src="./img/github.svg" alt="Github" />
+            <img src="./img/twitter.svg" alt="Twitter" />
+            <img src="./img/linkedin.svg" alt="LinkedIn" />
+         </div>
       </footer>
 
       <!-- <div>
             <img src="./img/example_homepage_plain.png" alt="preview of Lisa Gringl's website">
         </div> -->
+      <script src="js/tota11y.min.js"></script>
    </body>
 </html>
