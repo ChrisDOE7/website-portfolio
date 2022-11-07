@@ -19,49 +19,57 @@
       <link rel="stylesheet" type="text/css" href="./css/styles.css" />
    </head>
    <body>
-      <header>
-         <div>
-            <!-- Add your logo here -->
-            <img src="./img/unknownportal.GIF" alt="logo" />
-         </div>
-         <div>
-            <nav>
-               <ul role="menubar" class="navigation-list">
-                  <li role="presentation">
-                     <a
-                        href="index.html"
-                        role="menuitem"
-                        class="navigation-list__item navigation-list__item--active"
-                        >Home</a
-                     >
-                  </li>
-                  <li role="presentation">
-                     <a
-                        href="about.html"
-                        role="menuitem"
-                        class="navigation-list__item"
-                        >About Me</a
-                     >
-                  </li>
-                  <li role="presentation">
-                     <a
-                        href="./contact.html"
-                        role="menuitem"
-                        class="navigation-list__item"
-                        >Contact
-                     </a>
-                  </li>
-               </ul>
-            </nav>
-         </div>
+      <header class="page-header">
+         <!-- Add your logo here -->
+         <img
+            src="./img/unknownportal.GIF"
+            alt="logo"
+            class="page-header__item"
+         />
+         <nav class="page-header__item">
+            <ul role="menubar" class="navigation-list">
+               <li role="presentation">
+                  <a
+                     href="index.html"
+                     role="menuitem"
+                     class="navigation-list__item navigation-list__item--active"
+                     >Home</a
+                  >
+               </li>
+               <li role="presentation">
+                  <a
+                     href="about.html"
+                     role="menuitem"
+                     class="navigation-list__item"
+                     >About Me</a
+                  >
+               </li>
+               <li role="presentation">
+                  <a
+                     href="work.html"
+                     role="menuitem"
+                     class="navigation-list__item"
+                     >Work</a
+                  >
+               </li>
+               <li role="presentation">
+                  <a
+                     href="./contact.html"
+                     role="menuitem"
+                     class="navigation-list__item"
+                     >Contact
+                  </a>
+               </li>
+            </ul>
+         </nav>
       </header>
 
       <main>
-         <div>
-            <!-- Add your Portrait image here -->
+         <div class="profile">
             <img
                src="./img/boredape.png"
                alt="Chris's Portrait"
+               class="profile__portrait"
                width="150px"
             />
             <h1>Hello World!</h1>
@@ -74,16 +82,16 @@
             </p>
             <a href="#">Check out some of my code</a>
          </div>
-         <div>
+         <!-- <div>
             <a href="#">example Link</a>
             <button type="button">Don't Click</button>
-         </div>
-
+         </div> -->
          <br />
       </main>
-      <footer>
-         <div>
-            <p>Find me on</p>
+
+      <footer class="page-footer">
+         <p>Find me on</p>
+         <div class="social-media">
             <a href="https://github.com/ChrisDOE7"
                ><img src="./img/github.svg" alt="Github Profile"
             /></a>
@@ -96,6 +104,7 @@
             /></a>
          </div>
       </footer>
+
       <script src="js/tota11y.min.js"></script>
    </body>
 </html>

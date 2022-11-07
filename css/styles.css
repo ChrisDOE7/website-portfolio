@@ -1,3 +1,7 @@
+* {
+   box-sizing: border-box;
+}
+
 body {
    font-family: "Montserrat", sans-serif;
    font-weight: 400;
@@ -59,7 +63,83 @@ button:focus {
    cursor: pointer;
    opacity: 0.8;
 }
+.navigation-list {
+   list-style-type: none;
+}
+
+.navigation-list li {
+   display: inline-block;
+   margin-left: 15px;
+}
 
 .navigation-list__item--active {
    text-decoration: none;
+}
+
+div {
+   padding: 10px;
+   margin: 10px;
+   /*border: 1px solid black;  Attributes describe: thickness, type, color*/
+}
+
+.profile {
+   max-width: 700px;
+   margin: 0 auto;
+}
+
+.profile__portrait {
+   float: left;
+   max-width: 250px;
+   margin-right: 40px;
+   border-radius: 50%;
+}
+
+.page-header {
+   display: flex;
+   width: 100%;
+   padding: 20px;
+}
+
+.page-header__item {
+   flex: 0 1 200px;
+}
+
+.page-header__item:last-child {
+   flex-grow: 1;
+   text-align: right;
+}
+
+.page-footer {
+   clear: both;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+/* start grid fallback */
+.grid__item {
+   display: inline-block;
+   width: 33%;
+}
+/* end grid fallback */
+
+/*          GRID-LAYOUT         */
+
+@supports (display: grid) {
+   .project-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 20px;
+   }
+
+   .project-list__item {
+      background-color: lightgray;
+      padding: 20px;
+      width: auto;
+   }
+
+   .project-list__item:last-child {
+      grid-column: 3 / 3;
+      grid-row: 1 / 3;
+   }
 }

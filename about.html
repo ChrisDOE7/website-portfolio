@@ -21,18 +21,20 @@
       <link rel="stylesheet" type="text/css" href="./css/styles.css" />
    </head>
    <body>
-      <header>
-         <div>
-            <!-- Add your logo here -->
-            <img src="./img/unknownportal.GIF" alt="logo" />
-         </div>
-         <nav>
+      <header class="page-header">
+         <!-- Add your logo here -->
+         <img
+            src="./img/unknownportal.GIF"
+            alt="logo"
+            class="page-header__item"
+         />
+         <nav class="page-header__item">
             <ul role="menubar" class="navigation-list">
                <li role="presentation">
                   <a
                      href="index.html"
                      role="menuitem"
-                     class="navigation-list__item navigation-list__item--active"
+                     class="navigation-list__item"
                      >Home</a
                   >
                </li>
@@ -40,8 +42,16 @@
                   <a
                      href="about.html"
                      role="menuitem"
-                     class="navigation-list__item"
+                     class="navigation-list__item navigation-list__item--active""
                      >About Me</a
+                  >
+               </li>
+               <li role="presentation">
+                  <a
+                     href="work.html"
+                     role="menuitem"
+                     class="navigation-list__item"
+                     >Work</a
                   >
                </li>
                <li role="presentation">
@@ -145,9 +155,9 @@
             </table>
          </div>
       </main>
-      <footer>
-         <div>
-            <p>Find me on</p>
+      <footer class="page-footer">
+         <p>Find me on</p>
+         <div class="social-media">
             <a href="https://github.com/ChrisDOE7"
                ><img src="./img/github.svg" alt="Github Profile"
             /></a>

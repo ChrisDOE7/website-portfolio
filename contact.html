@@ -19,18 +19,20 @@
       <link rel="stylesheet" type="text/css" href="./css/styles.css" />
    </head>
    <body>
-      <header>
-         <div>
-            <!-- Add your logo here -->
-            <img src="./img/unknownportal.GIF" alt="logo" />
-         </div>
-         <nav>
+      <header class="page-header">
+         <!-- Add your logo here -->
+         <img
+            src="./img/unknownportal.GIF"
+            alt="logo"
+            class="page-header__item"
+         />
+         <nav class="page-header__item">
             <ul role="menubar" class="navigation-list">
                <li role="presentation">
                   <a
                      href="index.html"
                      role="menuitem"
-                     class="navigation-list__item navigation-list__item--active"
+                     class="navigation-list__item"
                      >Home</a
                   >
                </li>
@@ -44,9 +46,17 @@
                </li>
                <li role="presentation">
                   <a
-                     href="./contact.html"
+                     href="work.html"
                      role="menuitem"
                      class="navigation-list__item"
+                     >Work</a
+                  >
+               </li>
+               <li role="presentation">
+                  <a
+                     href="./contact.html"
+                     role="menuitem"
+                     class="navigation-list__item navigation-list__item--active"
                      >Contact
                   </a>
                </li>
@@ -54,17 +64,19 @@
          </nav>
       </header>
       <main>
-         <h1>My Contacts</h1>
-         Tel: <br />
-         <a href="tel:+4917123456"> Tel: +4917123456</a>
-         <br />
-         <a href="#">Call</a>
-         <br />
-         <br />
-         eMail: <br />
-         <a href="mailto:ceberhard@live.de">ceberhard@live.de</a>
-         <br />
-         <a href="mailto:ceberhard@live.de">Contact me</a>
+         <div>
+            <h1>My Contacts</h1>
+            Tel: <br />
+            <a href="tel:+4917123456"> Tel: +4917123456</a>
+            <br />
+            <a href="#">Call</a>
+            <br />
+            <br />
+            eMail: <br />
+            <a href="mailto:ceberhard@live.de">ceberhard@live.de</a>
+            <br />
+            <a href="mailto:ceberhard@live.de">Contact me</a>
+         </div>
          <div>
             <form action="/contact-form-action" method="post">
                <label for="name"
@@ -116,9 +128,9 @@
             </form>
          </div>
       </main>
-      <footer>
-         <div>
-            <p>Find me on</p>
+      <footer class="page-footer">
+         <p>Find me on</p>
+         <div class="social-media">
             <a href="https://github.com/ChrisDOE7"
                ><img src="./img/github.svg" alt="Github Profile"
             /></a>
