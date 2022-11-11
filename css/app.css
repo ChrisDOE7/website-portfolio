@@ -1,0 +1,28 @@
+.cell {
+   align-content: center;
+   padding-top: 20px;
+}
+
+.img-email__subscription {
+   width: 200px;
+}
+.button {
+   border-radius: 10px;
+}
+.text-float__right {
+   /* float: right; */
+   font-size: 12px;
+}
+
+.email-input-field {
+   width: 50%;
+}
+.callout-subscription__confirmation {
+   text-align: center;
+}
+
+.disclaimer {
+   font-size: 12px;
+   font-style: italic;
+   color: #585858;
+}

@@ -1,19 +1,12 @@
 * {
    box-sizing: border-box;
 }
-header {
-   border-bottom: 1px solid grey;
-}
 
 body {
    font-family: "Montserrat", sans-serif;
    font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
-}
-
-footer {
-   border-top: 1px solid grey;
 }
 
 h1 {
@@ -98,9 +91,9 @@ button:focus,
    margin-left: 15px;
 }
 
-.navigation-list__item {
-   /* opacity: 0.8; */
-}
+/* .navigation-list__item {
+   opacity: 0.8;
+} */
 .navigation-list__item:hover {
    /* opacity: 0.8; */
    /* color: #6f5e6f; */
@@ -243,4 +236,11 @@ div {
 
 .cloud-back {
    animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+/* NEWSLETTER SUBSCRIPTION CSS */
+
+.img-float__right {
+   float: right;
+   width: 5em;
 }
