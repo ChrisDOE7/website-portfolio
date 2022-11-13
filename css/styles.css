@@ -142,6 +142,7 @@ div {
 .page-header__item:last-child {
    flex-grow: 1;
    text-align: right;
+   align-content: center;
 }
 
 .page-footer {
