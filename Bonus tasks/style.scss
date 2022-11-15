@@ -1,0 +1,50 @@
+$box-background-primary: #112055;
+$box-background-secondary: #4f9d92;
+$box-color1: #fff;
+$box-color2: #000;
+$primary-color-darker: darken($box-background-primary, 10%);
+$primary-color-lighter: lighten($box-background-primary, 15%);
+
+.box__wrapper {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 20px;
+   padding: 20px;
+   font-family: sans-serif;
+}
+
+.box-primary {
+   background-color: $box-background-primary;
+   color: #fff;
+}
+
+.box-primary-lighter {
+   background-color: $primary-color-lighter;
+   color: $box-color1;
+}
+
+.box-primary-darker {
+   background-color: $primary-color-darker;
+   color: $box-color1;
+}
+
+.box-secondary {
+   background-color: $box-background-secondary;
+   color: $box-color2;
+}
+
+.box__wrapper {
+   div:hover {
+      box-shadow: none;
+   }
+}
+
+%button-shared {
+   padding: 10px;
+   border-radius: 5px;
+   box-shadow: 4px 3px 19px 0px rgba(0, 0, 0, 0.3);
+}
+
+.button {
+   @extend %button-shared;
+}

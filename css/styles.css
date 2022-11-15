@@ -1,8 +1,8 @@
 :root {
-   --primary-color: black;
-   --secondary-color: #c29b46;
-   --dark-grey: #2b2b2b;
+   --unvisited-links: #4086b5;
    --active-link: #489c79;
+   --visited-link: grey;
+   --dark-grey: #2b2b2b;
    --main-button: #6f5e6f;
    --heading-weight: 700;
    --sun1: #edc655;
@@ -19,6 +19,7 @@ body {
    font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
+   background-color: #dbefff;
 }
 
 h1 {
@@ -49,12 +50,12 @@ th {
 }
 
 a {
-   color: var(--primary-color);
+   color: var(--unvisited-links);
 }
 
 a:visited {
    /* visited link */
-   color: var(--secondary-color);
+   color: var(--visited-link);
 }
 
 a:hover,
@@ -83,6 +84,7 @@ a:active {
    border-radius: 5px;
    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
    transition: 0.4s opacity;
+   box-shadow: 4px 3px 19px 0px rgba(0, 0, 0, 0.3);
 }
 
 .button,
@@ -96,6 +98,7 @@ button:focus,
 .button:focus {
    cursor: pointer;
    opacity: 0.8;
+   box-shadow: none;
 }
 .navigation-list {
    list-style-type: none;
