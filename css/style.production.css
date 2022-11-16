@@ -28,10 +28,6 @@ h2 {
    font-weight: 700;
 }
 
-.header-logo {
-   max-width: 250px;
-}
-
 h3 {
    font-size: 18px;
    font-weight: 700;
@@ -153,14 +149,28 @@ div {
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
+   -webkit-box-pack: justify;
+   -ms-flex-pack: justify;
+   justify-content: space-between;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+   -ms-flex-flow: row wrap;
+   flex-flow: row wrap;
    width: 100%;
    padding: 20px;
+   -webkit-box-align: end;
+   -ms-flex-align: end;
+   align-items: flex-end;
+}
+
+.header-logo {
+   max-width: 350px;
 }
 
 .page-header__item {
    -webkit-box-flex: 0;
-   -ms-flex: 0 1 200px;
-   flex: 0 1 200px;
+   -ms-flex: 0 1 50%;
+   flex: 0 1 50%;
 }
 
 .page-header__item:last-child {
