@@ -142,6 +142,10 @@ div {
     margin: 0 auto;
 }
 
+.profile__bio {
+    text-align: left;
+}
+
 div.profile {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -268,7 +272,7 @@ div.profile {
     .profile__bio {
         -ms-flex-item-align: center;
         -ms-grid-row-align: center;
-        align-self: center;
+        text-align: center;
     }
 }
 
