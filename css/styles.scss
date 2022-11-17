@@ -130,8 +130,13 @@ div {
    margin: 0 auto;
 }
 
+.profile__bio {
+   text-align: left;
+}
+
 div.profile {
    display: flex;
+   align-items: center;
 }
 
 
@@ -213,7 +218,7 @@ div.profile {
    }
 
    .profile__portrait {
-      margin: 0;
+      margin: auto;
    }
 
    div.profile__image {

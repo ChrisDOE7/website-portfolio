@@ -150,6 +150,7 @@ div.profile {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    align-items: center;
 }
 
 .profile__portrait {
@@ -161,6 +162,8 @@ div.profile {
     -ms-flex-order: 1;
     order: 1;
 }
+
+.profile__image {}
 
 .page-header {
     display: -webkit-box;
@@ -260,7 +263,7 @@ div.profile {
     }
 
     .profile__portrait {
-        margin: 0;
+        margin: auto;
     }
 
     div.profile__image {
