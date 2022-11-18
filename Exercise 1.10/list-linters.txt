@@ -1,0 +1,8 @@
+HTMLHint
+v1.0.4
+
+Prettier - Code formatter
+v9.9.0
+
+Stylelint
+v1.2.3

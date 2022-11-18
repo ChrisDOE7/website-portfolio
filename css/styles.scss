@@ -142,7 +142,7 @@ div.profile {
 
 .profile__portrait {
    float: left;
-   max-width: 250px;
+   max-width: 150px;
    margin-right: 40px;
    border-radius: 50%;
    order: 1;
@@ -226,11 +226,11 @@ div.profile {
    }
 
    .profile__bio {
-      align-self: center;
+      text-align: center;
    }
 }
 
-@media all and (min-width: 500px) and (max-width: 750px) {
+@media all and (min-width: 550px) and (max-width: 750px) {
    .project-list {
       grid-template-columns: 1fr 1fr;
    }

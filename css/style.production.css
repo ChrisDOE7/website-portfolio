@@ -150,20 +150,20 @@ div.profile {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .profile__portrait {
     float: left;
-    max-width: 250px;
+    max-width: 150px;
     margin-right: 40px;
     border-radius: 50%;
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
 }
-
-.profile__image {}
 
 .page-header {
     display: -webkit-box;
@@ -273,13 +273,11 @@ div.profile {
     }
 
     .profile__bio {
-        -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
         text-align: center;
     }
 }
 
-@media all and (min-width: 500px) and (max-width: 750px) {
+@media all and (min-width: 550px) and (max-width: 750px) {
     .project-list {
         -ms-grid-columns: 1fr 20px 1fr;
         grid-template-columns: 1fr 1fr;

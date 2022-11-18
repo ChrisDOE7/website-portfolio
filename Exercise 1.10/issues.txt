@@ -1,0 +1,23 @@
+Discovered Issues
+
+
+
+1. index.html
+
+- Missing link for "Check out some of my code" to Github eg
+
+2. about.html
+
+- "Additional Information" takes too much space. Really bad UX on mobile devices!!!
+- The Animation .svg isn't properly centered
+- Also, one cloud isn't colorized
+
+3. work.html
+
+- replace placeholders with some real projects
+
+4. contact.html
+
+- email: ceberhard@live.de + "Contact Me" do the same
+- Extend "width" of <input> -fields for better readability
+
