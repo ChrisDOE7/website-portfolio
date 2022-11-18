@@ -18,6 +18,11 @@ body {
     background-color: #dbefff;
 }
 
+hr {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     font-size: 30px;
     font-weight: 700;
@@ -184,7 +189,7 @@ div.profile {
 }
 
 .header-logo {
-    max-width: 350px;
+    max-width: 200px;
 }
 
 .page-header__item {
