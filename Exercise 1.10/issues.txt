@@ -4,7 +4,7 @@ Discovered Issues
 
 1. index.html
 
-- Missing link for "Check out some of my code" to Github eg
+-
 
 2. about.html
 
@@ -19,5 +19,4 @@ Discovered Issues
 4. contact.html
 
 - email: ceberhard@live.de + "Contact Me" do the same
-- Extend "width" of <input> -fields for better readability
 

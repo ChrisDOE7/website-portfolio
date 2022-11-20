@@ -117,7 +117,7 @@ button:focus,
 }
 
 .navigation-list__item:hover {
-   color: red;
+   color: #e5b85b;
    transition: 2s;
 }
 
@@ -173,6 +173,14 @@ div.profile {
 .page-header__item:last-child {
    flex-grow: 1;
    text-align: right;
+}
+
+.form__input {
+   width: 300px;
+}
+
+input {
+   width: 220px;
 }
 
 .page-footer {
@@ -285,6 +293,10 @@ div.profile {
 }
 
 .cloud-front {
+   animation: 30s cloud-move infinite alternate linear;
+}
+
+.cloud-back {
    animation: 30s cloud-move infinite alternate linear;
 }
 
